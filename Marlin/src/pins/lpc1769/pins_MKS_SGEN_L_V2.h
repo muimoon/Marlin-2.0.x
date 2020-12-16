@@ -48,6 +48,8 @@
 #define SERVO0_PIN                         P1_23  // SERVO P1.23
 #define SERVO1_PIN                         P2_00  // SERVO P2.0
 
+#define FIL_RUNOUT_PIN                     P1_24
+
 //
 // Trinamic Stallguard pins, can connect or disconnect by jumpers cap on the board
 //
@@ -93,7 +95,7 @@
   #endif
 #else
   #define Z_MIN_PIN                        P1_25  // Z-
-  #define Z_MAX_PIN                        P1_24  // Z+
+  //#define Z_MAX_PIN                        P1_24  // Z+
 #endif
 
 //
